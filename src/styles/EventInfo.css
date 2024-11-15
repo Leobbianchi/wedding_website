@@ -1,0 +1,38 @@
+/* EventInfo.css */
+.event-info {
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 120px 20px 20px;
+  text-align: center;
+}
+
+.event-info h2 {
+  margin-top: 60px;
+  font-family: 'DelicateFont', sans-serif;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.event-info h3 {
+  font-family: 'DelicateFont', sans-serif;
+  font-size: 2em;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.event-info p {
+  font-size: 1.1em;
+  line-height: 1.5;
+  text-align: justify;
+  margin-bottom: 30px;
+}
+
+.image-gallery {
+  margin-bottom: 20px;
+}
+
+.image-gallery img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
