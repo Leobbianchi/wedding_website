@@ -1,17 +1,19 @@
 /* Homepage.css */
 
-.hero-image {
-  margin-top: 35px;
-  width: 100vw;
-  height: calc(100vh - 50px);
+/* Estilo da imagem de fundo */
+.villa-image {
+  width: 100%; /* Ocupa 100% da largura da tela */
+  height: auto; /* Altura ajusta-se automaticamente */
   object-fit: cover;
-  display: block;
+  position: static;
   margin: 0;
   padding: 0;
-  position: relative;
-  padding-top: 115px;
+  top: 0;
+  right: 10%;
+  left: 10%;
 }
 
+/* Estilo do texto "Save the Date" */
 .save-the-date {
   position: absolute;
   top: 50%;
@@ -20,21 +22,23 @@
   font-size: 3em;
   font-family: 'Tangerine', cursive;
   color: black;
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 0.7); /* Fundo translúcido */
   padding: 0.5em 1em;
   text-align: center;
   border-radius: 5px;
 }
 
-/* Ajustes para telas pequenas */
+/* Ajustes de responsividade para telas menores */
 @media (max-width: 768px) {
-  .hero-image {
-    height: calc(100vh - 80px);
+  .villa-image {
+    width: 100%; /* Mantém a largura em 100% da tela */
+    height: auto; /* Deixa a altura se ajustar automaticamente */
     object-fit: cover;
+    object-position: right center; /* Alinha a imagem à direita e centraliza verticalmente */
   }
 
   .save-the-date {
-    font-size: 2em;
-    padding: 0.3em 0.6em;
+    font-size: 2em; /* Ajusta o tamanho da fonte para mobile */
+    padding: 0.3em 0.6em; /* Reduz o padding para mobile */
   }
 }

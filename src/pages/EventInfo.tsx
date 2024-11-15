@@ -3,7 +3,7 @@ import React from 'react';
 import ImageCarousel from '../components/ImageCarousel';
 import '../styles/EventInfo.css';
 
-import villaSubaglio1 from '../assets/images/villa-subaglio.jpg';
+import villaSubaglio1 from '../assets/images/villa-subaglio-home.jpg';
 import villaSubaglio2 from '../assets/images/villa-subaglio2.jpg';
 import villaSubaglio3 from '../assets/images/villa-subaglio3.jpg';
 import villaSubaglio4 from '../assets/images/villa-subaglio4.jpg';

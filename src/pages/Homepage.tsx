@@ -1,5 +1,5 @@
 import React from 'react';
-import villaImage from '../assets/images/villa-subaglio.jpg';
+import villaImage from '../assets/images/villa-subaglio-home.jpg';
 import '../styles/Homepage.css';
     
 const Homepage: React.FC = () => {
