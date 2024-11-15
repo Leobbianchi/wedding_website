@@ -18,6 +18,8 @@ const EventInfo: React.FC = () => {
       <p className="intro-text">
         Nós estamos ansiosos pelo momento especial que se aproxima e mal podemos esperar para compartilhar este dia com cada um de vocês. O casamento acontecerá em um cenário de sonho, na Villa Subaglio, localizada na Itália, no dia 10 de setembro de 2025. É essencial que todos confirmem presença através do formulário disponível no site para garantirmos uma celebração impecável.
       </p>
+      
+      <h3>Em breve mais informações.</h3>
 
       <div className="image-gallery">
         <ImageCarousel
@@ -43,6 +45,7 @@ const EventInfo: React.FC = () => {
       <p>
         Estamos ansiosos para celebrar este momento único com todos vocês!
       </p>
+
       {/* Carrossel adicional com as imagens dress1 e dress2 */}
       <div className="image-gallery">
         <ImageCarousel

@@ -30,6 +30,13 @@ const hotelData = [
     address: '24 Via Pinamonte, 23875 Osnago',
     mapSrc: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2787.757428203178!2d9.392510711865237!3d45.67576977095757!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4786ae2cc3cb53d7%3A0x6a29127ff43d53d9!2sOsteria%20Roncate!5e0!3m2!1spt-BR!2sbr!4v1731666388429!5m2!1spt-BR!2sbr',
     link: 'https://www.booking.com/hotel/it/locanda-papa-nene.pt-pt.html'
+  },
+  {
+    name: 'Melas Hotel',
+    distance: '5 minutos de carro',
+    address: 'Via Bergamo 37, 23807 Merate',
+    mapSrc: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2787.1059068768004!2d9.421996799999999!3d45.6888466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4786ae6a91f7e14b%3A0xc4cdbadb0bf79ac3!2sMelas%20Hotel!5e0!3m2!1spt-BR!2sbr!4v1731671706797!5m2!1spt-BR!2sbr',
+    link: 'https://www.booking.com/hotel/it/melas.pt-br.html'
   }
 ];
 
