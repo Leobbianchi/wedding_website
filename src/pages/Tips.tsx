@@ -94,6 +94,16 @@ const Tips: React.FC = () => {
             link={hotel.link}
           />
         ))}
+
+        <div className="airbnb-card">
+          <h3>Airbnb</h3>
+          <p>
+            Outra opção é procurar no <strong>Airbnb</strong>, que oferece diversas
+            opções ideais para grupos maiores ou quem busca uma boa relação
+            custo-benefício.
+          </p>
+        </div>
+        
       </div>
     </div>
   );
