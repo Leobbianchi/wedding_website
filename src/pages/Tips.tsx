@@ -1,12 +1,23 @@
 import React from 'react';
 import ImageCarousel from '../components/ImageCarousel';
 import HotelInfoCard from '../components/HotelInfoCard';
+import AgencySuggestion from '../components/Agency';
 import '../styles/Tips.css';
 
 import milaleo1 from '../assets/images/milaleo1.jpg';
 import milaleo2 from '../assets/images/milaleo2.jpg';
 import milaleo3 from '../assets/images/milaleo3.jpg';
 import milaleo4 from '../assets/images/milaleo4.jpg';
+
+import caxiasturLogo from '../assets/images/caxiastur.png';
+
+
+// Agencia de turismo
+const agencyData  = [{
+  logo: caxiasturLogo,
+  link: "https://www.comprarviagem.com.br/caxiastur/home",
+  name: "Caxiastur",
+}];
 
 // Dados dos hotéis para exibição
 const hotelData = [
@@ -94,6 +105,19 @@ const Tips: React.FC = () => {
             link={hotel.link}
           />
         ))}
+
+        <div>
+
+        {agencyData.map((agency, index) => (
+          <AgencySuggestion
+            key={index}
+            logo={agency.logo}
+            link={agency.link}
+            name={agency.name}
+          />
+        ))}
+
+        </div>
 
         <div className="airbnb-card">
           <h3>Airbnb</h3>

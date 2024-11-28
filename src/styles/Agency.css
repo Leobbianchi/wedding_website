@@ -1,0 +1,44 @@
+.agency-suggestion-card {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    border: 1px solid #444;
+    width: 100%;
+    max-width: 600px;
+    display: flex; /* Para alinhar o logo e o texto lado a lado */
+    align-items: center;
+  }
+  
+  .agency-logo {
+    width: 20%; /* Ocupa 20% do card */
+    margin-right: 20px; /* Espaçamento entre o logo e o texto */
+  }
+  
+  .agency-logo img {
+    width: 100%; /* Garante que a imagem preencha o contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+    display: block; /* Remove espaços extras em torno da imagem */
+  }
+  
+  .agency-suggestion-card h3 {
+    margin: 0 0 10px;
+    text-align: left;
+  }
+  
+  .agency-suggestion-card p {
+    margin: 5px 0;
+    text-align: left;
+  }
+  
+  .agency-link {
+    color: #fff;
+    text-decoration: underline;
+    transition: color 0.3s;
+  }
+  
+  .agency-link:hover {
+    color: #ccc;
+  }
+  
