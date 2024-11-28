@@ -1,14 +1,6 @@
 import React from 'react';
 import '../styles/Agency.css';
 
-interface HotelInfoCardProps {
-  name: string;
-  distance: string;
-  address: string;
-  mapSrc: string;
-  link: string;
-}
-
 interface AgencyProps {
     logo: string;
     link: string;
